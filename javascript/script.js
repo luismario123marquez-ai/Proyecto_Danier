@@ -1,4 +1,3 @@
-
 class HangmanGame {
     constructor() {
         this.currentWord = '';
