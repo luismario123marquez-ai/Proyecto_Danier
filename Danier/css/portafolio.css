@@ -1,0 +1,101 @@
+/* Tipografía y colores base */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f6f8;
+  color: #aea4a4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado principal */
+header {
+  background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
+  color: rgb(174, 165, 165);
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Navegación */
+nav {
+  background-color: #2c2c2c;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+/* Secciones */
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Tarjetas de contenido */
+.card {
+  background-color: #1a1919;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px #fff9f91a;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Pie de página */
+footer {
+  background-color: #1f1f1f;
+  color: rgb(252, 253, 255);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav a {
+    margin: 0.5rem 0;
+  }
+}
+  a {
+  color: #9a9da1; 
+  text-decoration: none; 
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  color: #0056b3; 
+  border-bottom: 2px solid #0056b3; 
+}

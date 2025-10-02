@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login & Registro</title>
+  <link rel="stylesheet" href="/Danier/css/logiin.css">
+<body>
+  <header>
+    <a href="/Danier/index.html">Click</a>
+  </header>
+  <main class="container">
+    <div class="form-box">
+      <div class="toggle-buttons">
+        <button id="showLogin">Iniciar sesión</button>
+        <button id="showRegister">Registrarse</button>
+      </div>
+
+      <form id="loginForm" class="form active">
+        <h2>Login</h2>
+        <label for="loginUser">Usuario</label>
+        <input type="text" id="loginUser" required />
+        <label for="loginPass">Contraseña</label>
+        <input type="password" id="loginPass" required />
+        <button type="submit">Entrar</button>
+        <p class="error" id="loginError"></p>
+      </form>
+
+      <form id="registerForm" class="form">
+        <h2>Registro</h2>
+        <label for="regUser">Usuario</label>
+        <input type="text" id="regUser" required />
+        <label for="regEmail">Email</label>
+        <input type="email" id="regEmail" required />
+        <label for="regPass">Contraseña</label>
+        <input type="password" id="regPass" required />
+        <button type="submit">Crear cuenta</button>
+        <p class="error" id="registerError"></p>
+      </form>
+    </div>
+  </main>
+  <script src="/Danier/javascript/loginn.js"></script>
+</body>
+</html>
